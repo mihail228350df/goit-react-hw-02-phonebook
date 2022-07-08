@@ -11,9 +11,7 @@ const ContactItem = ({ contact, onDelete }) => {
         className={s.button}
         type="button"
         id={id}
-        onClick={e => {
-          onDelete(e.target.id);
-        }}
+        onClick={()=> { onDelete(id)}}
       >
         Delete
       </button>
