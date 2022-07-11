@@ -28,4 +28,4 @@ ContactItem.propTypes = {
   onDelete: PropTypes.func.isRequired,
 };
 
-export { ContactItem };
+export { ContactItem }; 
